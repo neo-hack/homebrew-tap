@@ -1,13 +1,13 @@
 # <projectname>.rb
 #
 class Pd < Formula
-  desc "A test formula"
-  homepage "http://www.example.com"
+  desc "search local package.name directly"
+  homepage "https://github.com/neo-hack/pd"
   url "-----"
-  version "-----"
+  version "0.1.0"
   sha256 "-----"
 
   def install
-    bin.install "<bin-name>"
+    bin.install "pd"
   end
 end
