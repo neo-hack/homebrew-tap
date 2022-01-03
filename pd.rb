@@ -3,9 +3,9 @@
 class Pd < Formula
   desc "search local package.name directly"
   homepage "https://github.com/neo-hack/pd"
-  url "https://github.com/neo-hack/pd/releases/download/v0.1.0/pd-v0.1.0-x86_64-macos.tar.xz"
-  version "0.1.0"
-  sha256 "e4d5d227d733a0d7cecf17138c7de8940026fd57ba5de28ae0d96b8e090bf970"
+  url "https://github.com/neo-hack/pd/releases/download/v0.2.0/pd-v0.2.0-x86_64-macos.tar.xz"
+  version "0.2.0"
+  sha256 "942b17bd4d575cdaf2f4a75018f2a08df0cbcee91a2ac8ad3914876d314d2523"
 
   def install
     bin.install "pd"
